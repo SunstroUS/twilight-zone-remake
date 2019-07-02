@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  background: #0c0d13;
+  color: #e3e1e7;
+}
+
+nav div {
+  height: 625px;
+  background: #0c0d13 url("./imgs/screencap.PNG") center;
+}
+
+nav div ul {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  list-style: none;
+  left: 43%;
+}
+
+nav div ul li {
+  color: #fff;
+  font-weight: 700;
+  padding: 0.75rem;
+  margin: 0.25rem 0;
+}
