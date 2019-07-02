@@ -1,0 +1,37 @@
+{
+  "particles": {
+    "number": {
+      "value": 150
+    },
+    "color": {
+      "value": "#e3e1e7"
+    },
+    "line_linked": {
+      "enable": false
+    },
+    "size": {
+      "value": 5,
+      "random": true
+    },
+    "move": {
+      "enable": true,
+      "speed": 0.2,
+      "attract": {
+        "enable": false
+      }
+    }
+  },
+  "interactivity": {
+    "detect_on": "canvas",
+    "events": {
+      "onhover": {
+        "enable": false,
+        "mode": "repulse"
+      },
+      "onclick": {
+        "enable": false,
+        "mode": "push"
+      }
+    }
+  }
+}
