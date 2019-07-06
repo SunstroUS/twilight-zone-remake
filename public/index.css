@@ -11,6 +11,12 @@ body {
   color: #e3e1e7;
 }
 
+nav div {
+  background: #09090e;
+  width: 100%;
+  height: 3.5rem;
+}
+
 nav div ul {
   position: absolute;
   display: flex;
@@ -26,14 +32,9 @@ nav div ul li {
   margin: 0.25rem 0;
 }
 
-.hero {
-  background: #e3e1e7;
-  height: 10px;
-}
-
 #particles-js {
   background: #09090e url("./imgs/tz.png") center no-repeat;
-  height: 100vh;
+  height: 93vh;
 }
 
 #episodes {
